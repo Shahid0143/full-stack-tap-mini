@@ -6,7 +6,7 @@ const userRoutes = require("./routes/userRoutes");
 const connectDB = require("./config/db");
 require("dotenv").config();
 
-const botService = require("./services/botService");
+
 const app = express();
 connectDB();
 
